@@ -99,7 +99,7 @@ module.exports = function (gulp, options) {
         opts = Object.keys(gulp.tasks[taskName].help.options).sort();
         optionsMargin = opts.reduce(function (m, opt) {
           return m > opt.length ? m : opt.length;
-        }, 0)
+        }, 0);
       }
 
       if (!gulp.tasks[taskName].help || (m > taskName.length && m > optionsMargin)) {
