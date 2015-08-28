@@ -1,6 +1,6 @@
 {
   "name": "gulp-help",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "Adds a default help task to gulp and provides the ability to add custom help messages to your gulp tasks",
   "main": "index.js",
   "scripts": {
@@ -65,6 +65,10 @@
     {
       "name": "yeojz",
       "url": "https://github.com/yeojz"
+    },
+    {
+      "name": "jtreleaven",
+      "url": "https://github.com/jtreleaven"
     }
   ],
   "engines": {

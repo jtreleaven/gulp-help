@@ -107,7 +107,7 @@ module.exports = function (gulp, options) {
 
     console.log('');
     console.log(chalk.underline('Usage'));
-    console.log('  gulp [TASK] [OPTIONS...]');
+    console.log('  nimbus [TASK] [OPTIONS...]');
     console.log('');
     console.log(chalk.underline('Available tasks'));
     Object.keys(gulp.tasks).sort().forEach(function (name) {
